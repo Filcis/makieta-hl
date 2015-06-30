@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>lipowska - rezerwacje</title>
+<meta name="description" content="The HTML5 Herald">
+<meta name="author" content="SitePoint">
+<link rel="stylesheet" href="style.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+	<link rel="stylesheet" href="css/datepicker.css">
+</head>
+
+<body>
+<div id="menu">
+        <div id='logo-wrapper'><img id='logo' src="logo.png"></div>
+        <div id='nav-wrapper'>
+        <ul>
+        <li>O NAS</li><li>HISTORIA</li><li>OFERTA</li><li>BLOG</li><li>KONTAKT</li>
+        </ul>
+        </div>
+    <div id='widget-wrapper'><a class="rezerwacje-button">rezerwacje</a><button type="button" class="pogoda_button">Pogoda<div class="arrow-down"></div></button></div><div id="pogoda"><script src="http://www.yr.no/place/Poland/Silesia/Hala_Lipowska/external_box_small.js"></script><noscript><a href="http://www.yr.no/place/Poland/Silesia/Hala_Lipowska/">yr.no: Prognoza dla Hali Lipowskiej</a></noscript></div>
+
+</div>
+
+<div class="wrapper-rezerwacje">
+    <div class="simple-wp-booking-enquiry-form">
+ <h2>Zapytaj nas o rezerwacje</h2>
+ <small style="color: rgb(0, 102, 50);">(Wszystkie pola wymagane)</small>
+ <form name="enqform" id="enqform" method="post" action="http://www.romeluv.com/simple-booking-form/?bform=1#simple-wp-booking-enquiry-form"><input type="hidden" value="" id="pid" name="pid">
+<table width="100%" border="0">
+<tbody> <tr>
+<td width="25%">Data  </td>
+<td width="75%">
+ 
+ 
+ <label for="sd">Data zameldowania:  <small>(dzień/miesiąc/rok)</small></label>
+  <p><input type="text" maxlength="10" value="" id="arrivaldate" name="arrivaldate" class="w8em format-d-m-y highlight-days-67 range-low-today" size="20"><a href="#" class="date-picker-control" title="" id="fd-but-arrivaldate"><span>&nbsp;</span></a></p>
+
+  <label for="ed">Data wymeldowania:  <small>(dzień/miesiąc/rok)</small></label>
+
+  <p class="lastup"><input type="text" maxlength="10" value="" id="departuredate" name="departuredate" class="w8em format-d-m-y highlight-days-67 range-low-today" size="20"><a href="#" class="date-picker-control" title="" id="fd-but-departuredate"><span>&nbsp;</span></a></p>
+  
+  
+  </td>
+
+</tr>
+ 
+
+
+
+
+
+<tr>
+<td width="25%">Liczba gości  </td>
+<td width="75%">
+<select class="csnum" name="number_of_guests">
+
+<option selected="selected" value="">Wybierz...</option>
+
+<option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option>
+</select></td>
+
+</tr>
+
+ 
+ 
+  
+ 
+<tr>
+<td width="40%" nowrap="">Imię i Nazwisko</td>
+<td width="60%">
+<input type="text" value="" class="secondary-bfe-inputs" name="contactname"></td>
+</tr>
+<tr>
+ <td><span class="csrequired">Email</span>  </td>
+
+<td>
+<input type="text" value="" class="secondary-bfe-inputs" name="contactemail"></td>
+</tr>
+
+<tr>
+ <td>Nr telefonu  </td>
+ <td>
+
+ 
+<input type="text" value="" class="secondary-bfe-inputs" name="telephone"></td>
+</tr>
+
+
+<tr>
+ <td>  2+5 =    </td>
+ <td>
+
+ 
+<input type="text" size="5" value="" class="secondary-bfe-inputs" name="controlusercheck"> <small>(Pytanie anty-spamowe)</small></td>
+</tr>
+
+
+<tr>
+<td style="vertical-align:top">Dodatkowe informacje (opcjonalnie) 
+ 
+</td>
+ <td>
+<textarea cols="20" rows="1" class="secondary-bfe-inputs" name="notes"></textarea></td>
+
+</tbody></table>
+ <div class="simple-booking-form-errors"><span style="color: red;"></span></div><input type="hidden" value="5" name="random_value">
+<input class="button-1" type="submit" value="Wyślij" name="submit-enquiry">
+
+</form>
+</div>
+<a href="#0" class="cd-top">Top</a>
+</div>
+    
+<footer></footer>
+    
+<script src="js/main.js"></script>    
+<script src="js/all.js"></script>    
+    
+
+</body>
+</html>
