@@ -110,6 +110,7 @@ z-index: 5;
 }
 
 #nav-wrapper ul{
+        height: 100%;
 width: 500px;
 display: block;
 margin: 0 auto;
@@ -117,6 +118,7 @@ white-space: nowrap;
 }
 
 #nav-wrapper ul li {
+        height: 100%;
 display: block;
 float:left;
 font-family: 'Aller';
@@ -124,22 +126,16 @@ font-size: 0.8em;
 color:white;
 }
 
-#nav-wrapper ul li a {
+#nav-wrapper a {
+    line-height: 75px;
     display: inline-block;
-    padding: 25px;
+    height: 100%;
+    padding: 0 25px;
     color: white;
 }
 
-#nav-wrapper ul li a:hover {
-text-decoration: underline;
-}
-
-#nav-wrapper ul li:after {
-content: " | ";
-}
-
-#nav-wrapper ul li:last-of-type:after{
-content: none;
+#nav-wrapper a:hover {
+    background-color: rgba(0, 102, 50, 0.6);
 }
 
 
