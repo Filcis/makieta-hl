@@ -5,19 +5,28 @@ padding:0;
 margin:0;
 }
 
+a {
+    text-decoration: none;
+    font-family: 'Aller';
+}
+
 article {
 margin: 50px auto 0 auto;
 }
 
-
-
-p{
+p {
 font: 22px/35px 'Aller', sans-serif;
 color: #3f3f3f;
 }
 
-section:nth-child(2n) {
+h1, h2, h3, h4 {
+    font-family: 'Aller';
+}
 
+h2 {
+    font-size: 18px;
+    color: rgb(0, 102, 50);
+    margin-bottom: 10px;
 }
 
 .h2-container {
@@ -34,13 +43,6 @@ opacity: 0.5;
 color: #fff;
 }
 
-h2 {
-    font-family: 'Aller';
-    font-size: 18px;
-    color: rgb(0, 102, 50);
-    margin-bottom: 10px;
-}
-
 .h2-container h2 {
     font-family: 'Aller';
     position: relative;
@@ -48,6 +50,14 @@ h2 {
     color: #fff;
 }
  
+
+
+
+
+/*---------------MENU-----------------*/
+
+
+
 #menu{
 height: 70px;
 /*display: block;*/
@@ -99,8 +109,6 @@ float: left;
 z-index: 5;
 }
 
-
-
 #nav-wrapper ul{
 width: 500px;
 display: block;
@@ -119,10 +127,13 @@ color:white;
 border-right: 1px solid white;
 }
 
-
 #nav-wrapper ul li:last-of-type {
 padding-right: 0;
 border: none;
+}
+
+#nav-wrapper ul li a {
+    color: white;
 }
 
 
@@ -382,13 +393,6 @@ background-color: green;
      clear: both;
      height: 0;
      }
-
-
-
-h3 {
-    font-family: "Aller";
-    
-}
 
 .sidebar-info p, .sidebar-info h2 {
 font-size: 0.9em; 
