@@ -122,7 +122,7 @@ white-space: nowrap;
 display: block;
 float:left;
 font-family: 'Aller';
-font-size: 0.8em;
+font-size: 0.9em;
 color:white;
 }
 
@@ -136,9 +136,10 @@ color:white;
 }
 
 #nav-wrapper a:hover {
-    background-color: rgba(0, 102, 50, 0.1);
+    background-color: rgba(0, 102, 50, 0.3);
 }
 
+/*
 #nav-wrapper ul li:after {
 content: "|";
 }
@@ -146,6 +147,7 @@ content: "|";
 #nav-wrapper ul li:last-of-type:after{
 content: none;
 }
+*/
 /*----------------------------SLIDER-------------------------------------*/
 
 #slider_wrapper {
