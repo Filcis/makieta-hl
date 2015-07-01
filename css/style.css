@@ -132,13 +132,20 @@ color:white;
     height: 100%;
     padding: 0 25px;
     color: white;
+    
 }
 
 #nav-wrapper a:hover {
-    background-color: rgba(0, 102, 50, 0.6);
+    background-color: rgba(0, 102, 50, 0.1);
 }
 
+#nav-wrapper ul li:after {
+content: "|";
+}
 
+#nav-wrapper ul li:last-of-type:after{
+content: none;
+}
 /*----------------------------SLIDER-------------------------------------*/
 
 #slider_wrapper {
