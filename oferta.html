@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>lipowska oferta</title>
+<meta name="description" content="The HTML5 Herald">
+<meta name="author" content="SitePoint">
+<link rel="stylesheet" href="css/style.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+    
+<div id="menu">
+    <div id='logo-wrapper'><img id='logo' src="logo.png"></div>
+    <div id='nav-wrapper'>
+        <ul>
+        <li><a href="o%20nas.html">O NAS</a></li><li><a href="historia.html">HISTORIA</a></li><li><a href="oferta.html">OFERTA</a></li><li><a href="blog.html">BLOG</a></li><li><a href="kontakt.html">KONTAKT</a></li>
+        </ul>
+    </div>
+        <div id='widget-wrapper'><a class="rezerwacje-button">rezerwacje</a><button type="button" class="pogoda_button">Pogoda<div class="arrow-down"></div></button></div><div id="pogoda"><script src="http://www.yr.no/place/Poland/Silesia/Hala_Lipowska/external_box_small.js"></script><noscript><a href="http://www.yr.no/place/Poland/Silesia/Hala_Lipowska/">yr.no: Prognoza dla Hali Lipowskiej</a></noscript></div>
+</div>
+    
+    
+<!--   SLIDER  ||   background image    -->
+    
+<div id="slider_wrapper">
+
+<div class="image_slider">
+
+<div class="active" style="background-image: url('images/oferta.jpg');"></div>
+
+</div>
+    <div id="headline"><h1>nasza oferta</h1><img class="arrow-down-button" width="50px" src='ikony/angle-circled-down.svg'></div></div>
+    
+
+    
+<footer></footer>
+<a href="#0" class="cd-top">Top</a>
+</div>
+    
+<script src="js/main.js"></script>    
+    
+<!--JAVASCRIPT  -->
+<!--OBLICZANIE WIELKOŚCI OBRAZKA-->
+<script type="text/javascript">
+$(document).ready(function(){
+//    var a = $(window).height() - $('#menu').height();
+    var a = $(window).height();
+    $("#slider_wrapper").css('height', a);
+
+});
+</script>
+
+<!--BUTTON POGODA-->
+<script>
+$(document).ready(function(){
+    $("#pogoda").hide();
+    $(".pogoda_button").click(function(){
+        $("#pogoda").toggle(500);
+    });
+});
+</script>
+
+<!--Menu zmiana koloru-->
+<script>
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 5) {
+        $("#menu").addClass("scrolling");
+    } else {
+        $("#menu").removeClass("scrolling");
+    }
+});
+</script>
+</body>
+</html>
