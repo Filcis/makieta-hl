@@ -17,6 +17,7 @@ margin: 50px auto 0 auto;
 p {
 font: 18px/28px 'Open Sans', sans-serif;
 color: #3f3f3f;
+    margin-bottom: 30px;
 }
 
 h1, h2, h3, h4 {
@@ -24,8 +25,9 @@ h1, h2, h3, h4 {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 18px;
     color: rgb(0, 102, 50);
+    text-align: center;
     margin-bottom: 10px;
 }
 
@@ -349,8 +351,8 @@ width: 50%;
 .vertical-line {
 width: 1px;
 height: 60px;
-margin: 15px auto;
-background-color: gray;
+margin: 0 auto;
+background-color: lightgray;
 }
 
 .scrolling-effect {
@@ -526,8 +528,9 @@ color:white;
 .text-img {
     max-height: 300px;
     border: 1px solid lightgray;
-    margin-top: 25px;
+    margin-bottom: 25px;
 }
+
 
 .absolute-nopad {
     position: absolute;
@@ -587,4 +590,45 @@ margin: 20px 10px;
 .text {
     padding-right: 70px;
     box-sizing: border-box;
+}
+.text2 {
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+.icon {
+    padding: 2px;
+    border-radius: 50px;
+    border: 1px solid green;
+    margin: 0 10px 10px auto;
+/*    display: block;*/
+    float: left;
+    vertical-align: middle;
+}
+
+.text2 {
+    
+}
+
+.historia {
+    padding: 15px 15px;
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+}
+
+.historia:nth-child(odd) historia {
+    background: rgb(15, 245, 245);
+} 
+
+.historia p {
+    margin: 0;
+    text-align: center;
+}
+
+.historia_wrapper:nth-child(even) .historia {
+    background: rgba(0, 102, 50, 0.06);
+}
+
+.historia_wrapper {
+    
 }
