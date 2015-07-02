@@ -268,10 +268,12 @@ background-color: rgba(255, 255, 255, 0.6);
 }
 
 .wrapper {
-/*    max-width: 1040px;*/
+    max-width: 1200px;
     width: 100%;
     margin:0 auto;
+    padding: 20px 40px;
     position: relative;
+        background-color: #fff;
     }
 
 .wrapper-rezerwacje {
@@ -409,9 +411,17 @@ background-color: green;
   }
 }
 .column1-2 {
-    width: 45%;
-    padding:0 0 0 5%;
+    width: 50%;
+    padding-left:20px;
     float:left;
+    box-sizing: border-box;
+}
+
+.column2-3 {
+    width: 75%;
+    padding-left:20px;
+    float:left;
+    box-sizing: border-box;
 }
 .column1-2-nopadding {
     width: 50%;
@@ -534,4 +544,15 @@ color:white;
 
 .history-images {
     background-color: rgba(0, 0, 0, 0.05);
+}
+
+.content {
+    background-color: rgb(245, 245, 245);
+}
+
+.column1-3 {
+    width: 25%;
+    padding-left:20px;
+    float:left;
+    box-sizing: border-box;
 }
