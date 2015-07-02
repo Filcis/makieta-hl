@@ -632,3 +632,20 @@ margin: 20px 10px;
 .historia_wrapper {
     
 }
+
+.subnav {
+    position: absolute;
+    top: -25px;
+}
+.subnav ul li {
+    float: left;
+    list-style: none;
+    padding: 5px 10px;
+    background-color: #fff;
+    border-right: 1px solid lightgray;
+}
+
+.subnav ul li::last {
+    border:none;
+}
+
