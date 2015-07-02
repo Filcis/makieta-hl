@@ -18,26 +18,30 @@
 
 <body>
 <div id="menu">
-        <div id='logo-wrapper'><img id='logo' src="logo.png"></div>
+        <div id='logo-wrapper'><a href="index.html"><img id='logo' src="logo.png"></a></div>
         <div id='nav-wrapper'>
         <ul>
         <li><a href="o%20nas.html">O NAS</a></li><li><a href="historia.html">HISTORIA</a></li><li><a href="oferta.html">OFERTA</a></li><li><a href="blog.html">BLOG</a></li><li><a href="kontakt.html">KONTAKT</a></li>
         </ul>
         </div>
-    <div id='widget-wrapper'><a class="rezerwacje-button">rezerwacje</a><button type="button" class="pogoda_button">Pogoda<div class="arrow-down"></div></button></div><div id="pogoda"><script src="http://www.yr.no/place/Poland/Silesia/Hala_Lipowska/external_box_small.js"></script><noscript><a href="http://www.yr.no/place/Poland/Silesia/Hala_Lipowska/">yr.no: Prognoza dla Hali Lipowskiej</a></noscript></div>
+    <div id='widget-wrapper'><a class="rezerwacje-button">rezerwacje</a><button type="button" class="pogoda_button">Pogoda<div class="arrow-down"></div></button></div><div id="pogoda"><script async src="http://www.yr.no/place/Poland/Silesia/Hala_Lipowska/external_box_small.js"></script><noscript><a href="http://www.yr.no/place/Poland/Silesia/Hala_Lipowska/">yr.no: Prognoza dla Hali Lipowskiej</a></noscript></div>
 
 </div>
 
 <!--   SLIDER    -->
     
-<div id="slider_wrapper">
+<div id="image_wrapper">
 
-<div class="image_slider">
+<div class="head-img">
 
 <div class="active" style="background-image: url('images/onas_1.jpg');"></div>
-
 </div>
+<<<<<<< HEAD
     <div id="headline"><h1>Schronisko</h1><img class="arrow-down-button" width="50px" src='ikony/angle-circled-down.svg'></div></div>
+=======
+<div id="headline"><h1>Nasza historia</h1></div>
+</div>
+>>>>>>> smaller-background-images
 
 
 <div class="wrapper">
@@ -74,15 +78,6 @@ Nasze schronisko zdobyło pierwsze miejsce w II Rankingu schronisk górskich „
 <script src="js/main.js"></script>    
     
 <!--JAVASCRIPT  -->
-<!--OBLICZANIE WIELKOŚCI OBRAZKA-->
-<script type="text/javascript">
-$(document).ready(function(){
-//    var a = $(window).height() - $('#menu').height();
-    var a = $(window).height();
-    $("#slider_wrapper").css('height', a);
-
-});
-</script>
 
 <!--BUTTON POGODA-->
 <script>

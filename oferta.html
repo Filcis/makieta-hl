@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 
-<title>lipowska oferta</title>
+<title>lipowska - historia</title>
 <meta name="description" content="The HTML5 Herald">
 <meta name="author" content="SitePoint">
 <link rel="stylesheet" href="css/style.css">
@@ -17,31 +17,56 @@
 </head>
 
 <body>
-    
 <div id="menu">
-    <div id='logo-wrapper'><img id='logo' src="logo.png"></div>
-    <div id='nav-wrapper'>
+        <div id='logo-wrapper'><a href="index.html"><img id='logo' src="logo.png"></a></div>
+        <div id='nav-wrapper'>
         <ul>
         <li><a href="o%20nas.html">O NAS</a></li><li><a href="historia.html">HISTORIA</a></li><li><a href="oferta.html">OFERTA</a></li><li><a href="blog.html">BLOG</a></li><li><a href="kontakt.html">KONTAKT</a></li>
         </ul>
-    </div>
-        <div id='widget-wrapper'><a class="rezerwacje-button">rezerwacje</a><button type="button" class="pogoda_button">Pogoda<div class="arrow-down"></div></button></div><div id="pogoda"><script src="http://www.yr.no/place/Poland/Silesia/Hala_Lipowska/external_box_small.js"></script><noscript><a href="http://www.yr.no/place/Poland/Silesia/Hala_Lipowska/">yr.no: Prognoza dla Hali Lipowskiej</a></noscript></div>
-</div>
-    
-    
-<!--   SLIDER  ||   background image    -->
-    
-<div id="slider_wrapper">
-
-<div class="image_slider">
-
-<div class="active" style="background-image: url('images/oferta.jpg');"></div>
+        </div>
+    <div id='widget-wrapper'><a class="rezerwacje-button">rezerwacje</a><button type="button" class="pogoda_button">Pogoda<div class="arrow-down"></div></button></div><div id="pogoda"><script src="http://www.yr.no/place/Poland/Silesia/Hala_Lipowska/external_box_small.js"></script><noscript><a href="http://www.yr.no/place/Poland/Silesia/Hala_Lipowska/">yr.no: Prognoza dla Hali Lipowskiej</a></noscript></div>
 
 </div>
-    <div id="headline"><h1>nasza oferta</h1><img class="arrow-down-button" width="50px" src='ikony/angle-circled-down.svg'></div></div>
-    
 
+<!--   SLIDER    -->
     
+<div id="image_wrapper">
+
+<div class="head-img">
+
+<div class="active" style="background-image: url('images/oferta_2.jpg');"></div>
+</div>
+<div id="headline"><h1>Nasza oferta</h1></div>
+</div>
+
+
+<div class="wrapper">
+<article>
+    
+ <div class="clearfix spaceafter">   <section class="column1-2">
+    <h2>Przykładowy nagłówek</h2>
+    <p>Prowadzenie schroniska na Hali Lipowskiej jest u nas już rodzinną tradycją kultywowaną już przez trzecie pokolenie rodziny. To miejsce stało się dla nas domem, a każdy turysta jest naszym gościem. 
+    Pani Maria Gowin, dla przyjaciół i stałych bywalców znana jako „Helenka” lub „Miki” prowadzi schronisko nieprzerwanie od 1969. Do roku 1999 w pracy pomagał jej mąż Zbigniew, legenda Beskidów, wieloletni ratownik GOPR, człowiek gór. Po jego śmierci kierowniczce przyszły z pomocą córki z własnymi rodzinami, dziś pomagają jej już dorosłe wnuki.</p><br><hr>
+    </section>    
+    <div class="column1-2"><div class="column1-2 sidebar-info">
+        <h2>schronisko na <br> Hali Lipowskiej</h3><hr>
+        <p>Rodzinna tradycja od 1969 roku</p><hr>
+        <p>Najdłuższy staż wśród wszystkich gospodarzy schronisk górskich w Polsce.</p><hr>
+        <p>Jedyna w swoim rodzaju domowa kuchnia</p>
+        </div></div>
+</div>
+  <div class="clearfix spaceafter">
+      
+<section class="column1-2"> <h2>Przykładowy nagłówek2</h2>  <p>        
+Ponad 45 lat spędzonych w górach to najdłuższy staż wśród wszystkich gospodarzy schronisk górskich w Polsce.
+Przez te wszystkie lata nasza rodzina nabrała doświadczenia, które jest nieocenione w tej wbrew pozorom niełatwej pracy. Na każdego odwiedzającego nas gościa zawsze czeka szczery uśmiech, serdeczne przyjęcie, gorąca herbata i, zdaniem wielu, najlepsza kuchnia w Beskidach, a już na pewno powyżej 1000 m n.p.m. 
+U nas zjesz jak u babci i spędzisz czas w prawdziwie domowej atmosferze.
+Nasze schronisko zdobyło pierwsze miejsce w II Rankingu schronisk górskich „N.P.M.” -magazyn turystyki górskiej.
+            </p>
+
+    </section><div class="column1-2"><img class="text-img" src="images/oferta.jpg"></div></div>
+
+</article>
 <footer></footer>
 <a href="#0" class="cd-top">Top</a>
 </div>
@@ -49,15 +74,6 @@
 <script src="js/main.js"></script>    
     
 <!--JAVASCRIPT  -->
-<!--OBLICZANIE WIELKOŚCI OBRAZKA-->
-<script type="text/javascript">
-$(document).ready(function(){
-//    var a = $(window).height() - $('#menu').height();
-    var a = $(window).height();
-    $("#slider_wrapper").css('height', a);
-
-});
-</script>
 
 <!--BUTTON POGODA-->
 <script>
